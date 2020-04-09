@@ -1,9 +1,9 @@
 class Triangle
 
-  def initialize(equilateral, isosceles, scalene)
-    @equilateral = equilateral
-    @isosceles = isosceles
-    @scalene = scalene
+  def initialize(one, two, three)
+    @one = one
+    @two = two
+    @three = three
   end
 
   def kind
