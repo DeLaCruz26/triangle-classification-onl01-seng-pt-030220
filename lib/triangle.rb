@@ -15,8 +15,7 @@ attr_accessor :one, :two, :three
       :isosceles
     elsif
       :scalene
-    else 
-      raise TriangleError
+    else raise TriangleError
     end
   end
 
