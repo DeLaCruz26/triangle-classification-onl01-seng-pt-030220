@@ -20,4 +20,5 @@ attr_accessor :one, :two, :three
 
   class TriangleError < StandardError
   end
+  
 end
