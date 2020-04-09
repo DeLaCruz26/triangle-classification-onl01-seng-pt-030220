@@ -7,7 +7,8 @@ class Triangle
   end
 
   def kind
-    if
+    if one == two || one == three
+      :equilateral
   end
 
   class TriangleError < StandardError
