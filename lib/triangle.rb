@@ -22,17 +22,11 @@ attr_accessor :one, :two, :three
 
   def illegal_triangle
     if one <= 0 || two <= 0 || three <= 0
-      begin
         raise TriangleError
-      end
     elsif one == nil || two == nil || three == nil
-      begin
         raise TriangleError
-      end
     elsif one + two <= three || one + three <= two || three + two <= one
-      begin
         raise TriangleError
-      end
     end
   end
 
