@@ -9,7 +9,10 @@ class Triangle
   def kind
     if one == two && one == three
       :equilateral
-    elsif
+    elsif one == two || one == three || two == three
+      :isosceles
+    else
+      :scalene
   end
 
   class TriangleError < StandardError
