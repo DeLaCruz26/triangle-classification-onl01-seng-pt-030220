@@ -1,5 +1,5 @@
 class Triangle
 
-  def initialize
+  def initialize(equilateral, isosceles, scalene)
   end
 end
