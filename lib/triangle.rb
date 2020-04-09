@@ -13,10 +13,6 @@ attr_accessor :one, :two, :three
       :equilateral
     elsif one == two || one == three || two == three
       :isosceles
-      begin
-        raise TriangleError
-      rescue TriangleErrors
-      end
     else
       :scalene
     end
