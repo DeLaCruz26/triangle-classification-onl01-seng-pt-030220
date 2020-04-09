@@ -15,8 +15,7 @@ attr_accessor :one, :two, :three
       :isosceles
       begin
         raise TriangleError
-      rescue TriangleError => error
-          puts error.message
+      rescue TriangleErrors
     else
       :scalene
     end
