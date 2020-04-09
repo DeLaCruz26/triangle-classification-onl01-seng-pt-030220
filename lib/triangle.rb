@@ -13,7 +13,7 @@ attr_accessor :one, :two, :three
       :equilateral
     elsif one == two || one == three || two == three
       :isosceles
-    else
+    elsif
       :scalene
     end
   end
