@@ -16,6 +16,7 @@ attr_accessor :one, :two, :three
       begin
         raise TriangleError
       rescue TriangleErrors
+      end
     else
       :scalene
     end
