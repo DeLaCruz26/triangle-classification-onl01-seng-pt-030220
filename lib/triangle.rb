@@ -11,6 +11,7 @@ attr_accessor :one, :two, :three
   def kind
     if one == two && one == three
       :equilateral
+      raise TriangleError
     elsif one == two || one == three || two == three
       :isosceles
     else
