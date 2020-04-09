@@ -5,4 +5,7 @@ class Triangle
     @isosceles = isosceles
     @scalene = scalene
   end
+
+  def kind
+  end
 end
